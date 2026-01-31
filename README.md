@@ -25,11 +25,12 @@ EasySpoof es una herramienta de automatización para ataques de Man-In-The-Middl
 ```bash
 # Descargar repositorio
 git clone https://github.com/matiashenao/easyspoof.git
-cd EasySpoof
+cd easyspoof
 
-# Permisos y ejecución
-chmod +x easyspoof.sh
-sudo ./easyspoof.sh
+# Permisos, dependencias y ejecución
+chmod +x easyspoof
+sudo apt install dsniff -y
+sudo ./easyspoof
 ```
 ⚖️ Aviso Legal
 Este software ha sido desarrollado con fines de investigación y seguridad ofensiva ética. Hacknet no se responsabiliza por el uso indebido de esta herramienta fuera de entornos controlados o sin autorización explícita.
